@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navPs {
+  display: none;
+}
+
+.addClientForm {
+  @apply border w-full outline-none block px-2 text-xl capitalize;
+}
+.addClientFormWc {
+  @apply border w-full outline-none block px-2 text-xl;
+}
